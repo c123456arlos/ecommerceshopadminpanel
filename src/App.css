@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        /* ... other variables ... */
+        --destructive: 0 84.2% 60.2%;
+        --destructive-foreground: 210 40% 98%;
+    }
+
+    .dark {
+        /* ... other variables ... */
+        --destructive: 0 62.8% 30.6%;
+        --destructive-foreground: 210 40% 98%;
+    }
+}
+
+:root {
+    --background: 0 0% 100%;
+}
+
+body {
+    background-color: var(--background-color);
+}
